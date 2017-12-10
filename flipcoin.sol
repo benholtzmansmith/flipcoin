@@ -4,7 +4,7 @@ contract flip {
     bool result;
     
     /* This runs when the contract is executed */
-    function flip(string agent) public {
+    function flip(address flipper) public {
         result = true;
     }
 
